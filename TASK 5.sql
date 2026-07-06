@@ -1,0 +1,4 @@
+SELECT
+FIRST_NAME + '' + LAST_NAME AS NAME
+FROM emp_record_table
+WHERE DEPT = 'FINANCE';
